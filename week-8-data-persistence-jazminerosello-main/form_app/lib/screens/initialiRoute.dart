@@ -1,10 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:form_app/model/slambook_model.dart';
-import 'package:form_app/screens/slambook.dart';
+import '../model/slambook_model.dart';
+import '../screens/slambook.dart';
 import 'package:provider/provider.dart';
+
+// import '../package:provider/provider.dart';
 import '../provider/slambook_provider.dart';
+// import 'package:animated_background/animated_background.dart';
 import 'thirdRoute.dart';
 
 class InitialRoute extends StatefulWidget {
